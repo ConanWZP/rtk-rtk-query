@@ -1,0 +1,49 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Lasagne",
+      "image": "https://www.themealdb.com/images/media/meals/wtsvxx1511296896.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Big Mac",
+      "image": "https://www.themealdb.com/images/media/meals/urzj1d1587670726.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Kapsalon",
+      "image": "https://www.themealdb.com/images/media/meals/sxysrt1468240488.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Stamppot",
+      "image": "https://www.themealdb.com/images/media/meals/hyarod1565090529.jpg"
+    },
+    {
+      "name": "sdfsdfgsdfg",
+      "image": "ghdfgjjghkj",
+      "id": 5
+    },
+    {
+      "name": "sfdhdfghgfh",
+      "image": "jkghlhj;jkl;",
+      "id": 6
+    },
+    {
+      "name": "Moussaka",
+      "image": "https://www.themealdb.com/images/media/meals/ctg8jd1585563097.jpg",
+      "id": 7
+    },
+    {
+      "name": "Pancakes",
+      "image": "https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg",
+      "id": 8
+    },
+    {
+      "name": "Yaki Udon",
+      "image": "https://www.themealdb.com/images/media/meals/wrustq1511475474.jpg",
+      "id": 9
+    }
+  ]
+}
