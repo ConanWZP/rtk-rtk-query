@@ -14,7 +14,7 @@ const RecipeItem:FC<IRecipeItemProps> = ({recipe}) => {
     const favorites = useTypedSelector(state => state.favorites)
 
     const {toggleFavorites} = useActions()
-
+    //
     console.log(favorites)
    const isExists = favorites.some(e => e.id === recipe.id)
   //  const isExists = true
