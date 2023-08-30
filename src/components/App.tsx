@@ -1,8 +1,6 @@
 import RecipeItem from "./recipe-item/RecipeItem";
-import {useDispatch, useSelector} from "react-redux";
 import {BsChatLeftHeartFill} from "react-icons/bs";
 import {useActions} from "../hooks/useActions";
-import {getUserById} from "../store/slices/user/userThunk";
 import {useGetRecipesQuery} from "../store/api/api";
 import CreateRecipe from "./create-recipe/CreateRecipe";
 import {useTypedSelector} from "../hooks/useTypedSelector";
@@ -61,7 +59,7 @@ function App() {
                     recipes ? recipes.map(recipe => (
                             <RecipeItem key={recipe.id} recipe={recipe}/>
                         ))
-                        : recipesError ? <div>{recipesError}</div> : <div>Recipes not found</div>
+                        : recipesError ? <div>Error</div> : <div>Recipes not found</div>
             }
         </section>
     )
